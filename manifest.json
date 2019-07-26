@@ -1,0 +1,17 @@
+{
+  "name": "Quick HTML Snippets",
+  "description" : "To use, type 'html' plus a snippet of HTML into the search bar.",
+  "version": "1.0",
+  "applications": {
+    "gecko": {
+      "id": "quicksnippet@monotonous.org",
+      "strict_min_version": "52.0a1"
+    }
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "omnibox": { "keyword" : "html" },
+  "manifest_version": 2,
+  "permissions": []
+}
